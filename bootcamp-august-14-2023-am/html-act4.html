@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Activity 4</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Please fill this survey form</h1>
+ 
+    <form action="" method="">
+        <label for="firstname">First Name:</label>
+        <input type="text" name="first_name" id="firstname">
+
+        <label for="mi">MI:</label>
+        <input type="text" name="middle_initial" id="mi">
+
+        <label for="lastname">Last Name:</label>
+        <input type="text" name="last_name" id="lastname">
+
+        <br>
+
+        <label for="city">City:</label>
+        <input type="text" name="city" id="city">
+
+        <label for="state">State:</label>
+        <input type="text" name="state" id="state">
+
+        <label for="zipcode">Zip Code:</label>
+        <input type="text" name="zip_code" id="zipcode">
+
+
+    <div>
+        <p>Choose a Sport:</p>
+
+        <input type="checkbox" name="sport" value="basketball" id="basketball">
+        <label for="basketball">Basketball</label>
+
+        <input type="checkbox" name="sport" value="football" id="football">
+        <label for="football">Football</label>
+
+        <input type="checkbox" name="sport" value="hockey" id="hockey">
+        <label for="hockey">Hockey</label>
+    </div>
+
+    <div>
+        <p>Choose a Year:</p>
+
+        <input type="radio" name="year" value="freshman" id="freshman">
+        <label for="freshman">Freshman</label>
+
+        <input type="radio" name="year" value="sophomore" id="sophomore">
+        <label for="sophomore">Sophomore</label>
+
+        <input type="radio" name="year" value="junior" id="junior">
+        <label for="junior">Junior</label>
+
+        <input type="radio" name="year" value="senior" id="senior">
+        <label for="senior">Senior</label>
+    </div>
+
+    <div>
+        <label for="food">Choose your favorite food:</label>
+        <br>
+        <select name="food" id="food" multiple>
+            <option value="chips">Chips</option>
+            <option value="pizza">Pizza</option>
+            <option value="nachos">Nachos</option>
+        </select>
+    </div>
+
+    <div>
+        <textarea name="comments" id="comments" cols="40" rows="8" placeholder="Please let us know your comments"></textarea>
+    </div>
+
+    <div>
+        <input type="submit" name="submit" value="Send it">
+        <button type="reset" name="reset">Clear it</button>
+    </div>
+</form>
+</body>
+</html>

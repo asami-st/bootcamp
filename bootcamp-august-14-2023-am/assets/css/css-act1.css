@@ -1,0 +1,28 @@
+.table1{
+    width: 1000px;
+    height: 250px;
+    border-collapse: collapse;
+    background-color: lightcoral;
+}
+
+tr, th{
+    border: 1px solid white;
+}
+
+thead{
+    height: 70px;
+    color: white;
+    font-size: larger;
+}
+
+.row1, .row3, .row5{
+    background-color: peachpuff;
+}
+
+.row2, .row4{
+    background-color: white;
+}
+
+.e-mail{
+    color: blue;
+}

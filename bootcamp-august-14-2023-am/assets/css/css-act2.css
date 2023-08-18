@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.person1{
+    border: 1px solid gray;
+    width: 200px;
+    height: 300px;
+    float: left;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.person2{
+    border: 1px solid gray;
+    width: 200px;
+    height: 300px;
+    float: left;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 5px 5px 0 0 ;
+}
+
+.woman{
+    border-radius: 5px 5px 0 0 ;
+}
